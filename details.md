@@ -1,5 +1,10 @@
 # Script de Infraestrutura Linux
 
+Este script é um material de estudo do Bootcamp [Linux Experience][https://web.dio.me/track/linux-experience] disponibilizada na DIO.
+
+O script é responsável por criar diretórios, grupos usuários e permissões dentro de um sistema Linux.
+
+Este script foi criado em um sistema Ubuntu 20.04.
 ## Diretórios
 - /publico
 - /adm
