@@ -21,15 +21,15 @@ useradd joao -m -c "Joao" -s /bin/bash -G GRP_ADM -p $(openssl passwd -crypt sen
 
 echo "Criando usuários do grupo VEN..."
 
-useradd debora -m -c "Debora" -s /bin/bash -G GRP_ADM -p $(openssl passwd -crypt senhadebora)
-useradd sebastiana -m -c "Sebastiana" -s /bin/bash -G GRP_ADM -p $(openssl passwd -crypt senhasebastiana)
-useradd roberto -m -c "Roberto" -s /bin/bash -G GRP_ADM -p $(openssl passwd -crypt senharoberto)
+useradd debora -m -c "Debora" -s /bin/bash -G GRP_VEN -p $(openssl passwd -crypt senhadebora)
+useradd sebastiana -m -c "Sebastiana" -s /bin/bash -G GRP_VEN -p $(openssl passwd -crypt senhasebastiana)
+useradd roberto -m -c "Roberto" -s /bin/bash -G GRP_VEN -p $(openssl passwd -crypt senharoberto)
 
 echo "Criando usuários do grupo SEC..."
 
-useradd josefina -m -c "Josefina" -s /bin/bash -G GRP_ADM -p $(openssl passwd -crypt senhajosefina)
-useradd amanda -m -c "Amanda" -s /bin/bash -G GRP_ADM -p $(openssl passwd -crypt senhaamanda)
-useradd rogerio -m -c "Rogerio" -s /bin/bash -G GRP_ADM -p $(openssl passwd -crypt senharogerio)
+useradd josefina -m -c "Josefina" -s /bin/bash -G GRP_SEC -p $(openssl passwd -crypt senhajosefina)
+useradd amanda -m -c "Amanda" -s /bin/bash -G GRP_SEC -p $(openssl passwd -crypt senhaamanda)
+useradd rogerio -m -c "Rogerio" -s /bin/bash -G GRP_SEC -p $(openssl passwd -crypt senharogerio)
 
 echo "Manipulando permissões..."
 
