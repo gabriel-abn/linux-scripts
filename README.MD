@@ -1,6 +1,6 @@
 # Script de Infraestrutura Linux
 
-Este script é um material de estudo do Bootcamp [Linux Experience][https://web.dio.me/track/linux-experience] disponibilizada na DIO.
+Este script é um material de estudo do [Bootcamp Linux Experience](https://web.dio.me/track/linux-experience) disponibilizada na DIO.
 
 O script é responsável por criar diretórios, grupos usuários e permissões dentro de um sistema Linux.
 
